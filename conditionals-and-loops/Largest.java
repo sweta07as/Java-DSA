@@ -45,7 +45,7 @@ public class Largest {
 //                System.out.println("Largest number is " + b);
 //            else
 //                System.out.println("Largest number is " + c);
+//            }
+     }    
+}
 
-
-        }
-    }
