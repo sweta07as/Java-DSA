@@ -53,7 +53,7 @@ public class Area {
                         System.out.println(area);
                     }
                     case "isosceles"-> {
-                        System.out.println("Enter the value of common side: ");
+                        System.out.println("Enter the value of common sides: ");
                         double a = sc.nextInt();
                         System.out.println("Enter the value of the third side: ");
                         double b = sc.nextInt();
@@ -61,7 +61,7 @@ public class Area {
                         System.out.println(area);
                     }
                     case "equilateral"-> {
-                        System.out.println("Enter the common value of the side: ");
+                        System.out.println("Enter the common value of the sides: ");
                         int a = sc.nextInt();
                         double area = (Math.sqrt(3)*a*a)/4;
                         System.out.println(area);
