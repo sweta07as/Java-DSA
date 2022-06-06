@@ -1,4 +1,4 @@
-//basic //Q1 to Q7
+//Q1 to Q7
 import java.util.Scanner;
 
 public class Area {
