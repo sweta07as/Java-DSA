@@ -1,4 +1,4 @@
-//basic //Q14 to Q18
+//Q14 to Q18
 //Q19 and Q20 are similar, hence avoided.
 import java.util.Scanner;
 
