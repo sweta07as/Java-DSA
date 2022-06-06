@@ -1,4 +1,4 @@
-//basic //Q8 to Q13
+//Q8 to Q13
 import java.util.Scanner;
 
 public class Perimeter {
