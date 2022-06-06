@@ -1,4 +1,4 @@
-//Q23 Input a number and print all the factors of that number (use loops).
+//Q23 Input a number and print all the factors of that number
 import java.util.Scanner;
 
 public class Factors {
