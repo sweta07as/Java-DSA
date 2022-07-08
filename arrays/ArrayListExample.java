@@ -33,6 +33,7 @@ public class ArrayListExample {
         list.set(0,10); //replace item at any index
         list.remove(1);
         System.out.println(list);
+        System.out.println(list.size()); //gives size
         System.out.println(list.get(2)); //get item at any index
 
         //input
