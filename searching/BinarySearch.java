@@ -7,7 +7,7 @@ public class BinarySearch {
         System.out.println(ans);
     }
     //return the index
-    //return =1 if the element does not exist in the array
+    //return -1 if the element does not exist in the array
     static int binarySearch(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
