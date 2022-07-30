@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class CyclicSort {
-//    When given numbers are continuous AND are in the range from 1 to N, then use Cyclic Sort
+//    When given numbers are continuous OR are in the range from 1 to N, then use Cyclic Sort
     //Time Complexity
     //Worst Case: O(N)
     public static void main(String[] args) {
