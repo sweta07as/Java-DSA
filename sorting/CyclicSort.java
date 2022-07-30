@@ -1,7 +1,9 @@
 import java.util.Arrays;
 
 public class CyclicSort {
-//    When given numbers are continuous OR are in the range from 1 to N, then use Cyclic Sort
+//    When given numbers are continuous OR are in the range [0,N] OR are in the range [1,N] , then use Cyclic Sort
+    //If range is [0,N] then every element will be at index = value;
+    //If range is [1,N] then every element will be at index = value-1;
     //Time Complexity
     //Worst Case: O(N)
     public static void main(String[] args) {
