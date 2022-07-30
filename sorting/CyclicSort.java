@@ -4,8 +4,10 @@ public class CyclicSort {
 //    When given numbers are continuous OR are in the range [0,N] OR are in the range [1,N] , then use Cyclic Sort
     //If range is [0,N] then every element will be at index = value;
     //If range is [1,N] then every element will be at index = value-1;
-    //Time Complexity
+    
+//    Time Complexity
     //Worst Case: O(N)
+    
     public static void main(String[] args) {
         int[] arr = {3, 5, 1, 2, 4};
         cyclic(arr);
