@@ -17,7 +17,7 @@ public class TypeConversionAndCasting {
 
         // type casting //narrowing conversion //for incompatible types
         //compressing bigger number into smaller type explicitly
-        int num = (int) (67.56f);
+        int num = (int) (67.56f);  //truncates the decimal part, meaning that it cuts it off without doing any rounding
         //System.out.println(num)
 
 
