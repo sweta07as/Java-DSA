@@ -7,7 +7,7 @@
 //        2) Return Type
 //        3) Body of the function : they are specific to a particular call
 
-//Make sure to return the result of a function call of the return type
+//Make sure to RETURN the result of a function call of the return type
 
 public class BinarySearch {
     public static void main(String[] args) {
