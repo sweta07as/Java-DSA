@@ -16,7 +16,7 @@ package oops1;
 //The dot operator links the name of the object with the name of an instance variable.
 //Instance Variables are those variables that are inside the object/class (but should be outside the method)
 //Reference Variable is the variable that actually defines the object.
-public class Class {
+public class ClassesAndObjects {
     public static void main(String[] args) {
 
 //        Student sweta; //declaration //creating a reference variable of data type Student
