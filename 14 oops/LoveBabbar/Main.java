@@ -24,6 +24,10 @@ public class Main {
                                             //can be accessed without making objects
         Student one = new Student();
         one.marks = 10; //protected access modifier example
+        
+        Sample sam = new Sample();
+        sam.getAge();
+        sam.setAge(23);
     }
 }
 
