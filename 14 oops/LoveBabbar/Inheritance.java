@@ -14,7 +14,7 @@ public class Inheritance {
 }
 
 //single inheritance //parent child //doubt constructor
-class Female extends Human{
+class Female extends HumanBeing{
     public Female(int age){
         System.out.println("Inside female constructor");
     }
