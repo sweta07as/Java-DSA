@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 //Data Hiding means an outside person cannot access our internal data directly
 //or our internal data should not go out directly
-public class Encapsulation {
+public class EncapsulationAbstraction {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
