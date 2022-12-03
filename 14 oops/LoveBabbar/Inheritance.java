@@ -86,4 +86,4 @@ class FullTime extends Employee{
 
 }
 
-//Java does not support Multiple Inheritance and Hybrio Inheritance due to ambiguity
+//Java does not support Multiple Inheritance and Hybrid Inheritance due to ambiguity
