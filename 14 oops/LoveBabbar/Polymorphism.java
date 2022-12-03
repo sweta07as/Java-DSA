@@ -31,7 +31,7 @@ class Calculate{
 //method should have same name and same parameter
 //must do inheritance
 class Cat extends Animal{
-    @Override //this is just a tag/annotation //no use
+    @Override //this is just a tag/annotation //no use //improves readability and detects error
     void speak(){
         System.out.println("Meow");
     }
