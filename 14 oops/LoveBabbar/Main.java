@@ -22,6 +22,8 @@ public class Main {
 
         System.out.println(Human.count); //static members are accessed by class name
                                             //can be accessed without making objects
+        Student one = new Student();
+        one.marks = 10; //protected access modifier example
     }
 }
 
