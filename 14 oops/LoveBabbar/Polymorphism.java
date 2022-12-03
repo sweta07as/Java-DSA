@@ -3,6 +3,12 @@ package oppsByLB;
 
 //We can overload the main method in java
 // but JVM only calls the original main method, it will never call our overloaded main method.
+
+//Can we Override static methods in java? 
+//        We can declare static methods with the same signature in the subclass, 
+//        but it is not considered overriding as there won't be any run-time polymorphism. 
+//        Hence the answer is 'No'
+
 public class Polymorphism {
     public static void main(String[] args) {
         Calculate sum = new Calculate();
