@@ -31,6 +31,9 @@ public class Main {
 //        list.display();
 //        System.out.println(list.delete(2));
 //        list.display();
+//        list.insertUsingRecursion(88, 2);
+//        list.display();
+
 
         //Doubly LinkedList
 //        DLL list = new DLL();
