@@ -60,9 +60,27 @@ public class LL {
         size += 1;
 
     }
+    
+    //when you are doing recursion in LL, you can do two things:-
+    //i) void return type & make changes in LL
+    //ii) Node return type that returns the list node to change the structure
 
+//insertion using recursion //helpful when tail or size is not provided
+    public void insertUsingRecursion(int val, int index){
+        head = insertUsingRecursion(val, index, head);
+    }
+
+    private Node insertUsingRecursion(int val, int index, Node node){
+        if(index == 0){
+            Node temp = new Node(val, node);
+            size += 1;
+            return temp;
+        }
+        node.next = insertUsingRecursion(val, index-1, node.next);
+        return node;
+    }
+    
     //deleted nodes get removed by garbage collector
-
     public int deleteAtFirstPosition(){
         int val = head.value;
         head = head.next;
