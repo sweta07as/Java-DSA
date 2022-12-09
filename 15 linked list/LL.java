@@ -20,8 +20,8 @@ public class LL {
     public void insertAtFirstPosition(int val){
         Node node = new Node(val);
         node.next = head;
-        head = node;        //if LL was initially empty (i.e., first item is getting inserted)
-        if(tail == null){   //then head and tail both points to null i.e., node "next" is null
+        head = node;        //if LL was initially empty i.e., first item is getting inserted
+        if(tail == null){   //then head and tail would have been null
             tail = head;    //if their is only node in LL, then both head and tail points to that node
         }
         size += 1;
